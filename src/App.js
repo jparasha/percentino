@@ -8,7 +8,17 @@ function App() {
   const CONSTANT = {
     WHAT_PERCENT : 'whatPercent',
     WHAT_IS : 'whatIs',
-  } 
+  }
+  
+  const types = [{
+    label : 'what percent of x is y',
+    value : CONSTANT.WHAT_PERCENT
+  },
+  {
+    label : 'what is x% of y',
+    value : CONSTANT.WHAT_IS
+  },
+];
 
   const[selected, setSelected] = useState(CONSTANT.WHAT_PERCENT);
 
@@ -18,8 +28,9 @@ function App() {
         <img src={logo} className='App-logo' alt='logo' />
         <section className='calc-section flex'>
           <select value={selected} onChange={(e) => setSelected(e.target.value)}>
-            <option value={CONSTANT.WHAT_PERCENT}>{CONSTANT.WHAT_PERCENT}</option>
-            <option value={CONSTANT.WHAT_IS}>{CONSTANT.WHAT_IS}</option>
+            {
+              types.map(type=><option value={type.value}>{type.label}</option>)
+            }
           </select>
           {<WhatPercent show={selected === CONSTANT.WHAT_PERCENT }/>}
           {<WhatIs show ={selected === CONSTANT.WHAT_IS }/>}
