@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/percentino/static/css/main.dd19762f.css",
-    "main.js": "/percentino/static/js/main.cd3129ce.js",
+    "main.css": "/percentino/static/css/main.0817e394.css",
+    "main.js": "/percentino/static/js/main.52d54c04.js",
     "static/js/787.1224d821.chunk.js": "/percentino/static/js/787.1224d821.chunk.js",
     "service-worker.js": "/percentino/service-worker.js",
     "static/media/logo.svg": "/percentino/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/percentino/index.html",
-    "main.dd19762f.css.map": "/percentino/static/css/main.dd19762f.css.map",
-    "main.cd3129ce.js.map": "/percentino/static/js/main.cd3129ce.js.map",
+    "main.0817e394.css.map": "/percentino/static/css/main.0817e394.css.map",
+    "main.52d54c04.js.map": "/percentino/static/js/main.52d54c04.js.map",
     "787.1224d821.chunk.js.map": "/percentino/static/js/787.1224d821.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd19762f.css",
-    "static/js/main.cd3129ce.js"
+    "static/css/main.0817e394.css",
+    "static/js/main.52d54c04.js"
   ]
 }
