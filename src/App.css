@@ -45,6 +45,14 @@
   font-weight: bold;
 }
 
+.text-green {
+  color: #51d851;
+}
+
+.text-red {
+  color: #ff1414;
+}
+
 input {
   width: 100%;
   border: 2px solid #aaa;
