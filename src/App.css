@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -11,6 +11,11 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.App-header > .calc-section {
+  max-width: 500px;
+  gap: 2rem;
 }
 
 .App-header {
@@ -23,7 +28,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 10px 20px;
-  gap : 2rem;
+  gap: 2rem;
 }
 
 .App-link {
@@ -34,7 +39,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 8px;
+  gap: 1.2rem;
   width: 100%;
   flex-flow: row wrap;
   font-weight: bold;
@@ -51,9 +56,19 @@ input {
   transition: 0.3s;
 }
 
-input:focus {
+input:focus,
+select:focus {
   border-color: dodgerBlue;
   box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+select {
+  max-width: 500px;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  border-radius: 4px;
 }
 
 @keyframes App-logo-spin {
